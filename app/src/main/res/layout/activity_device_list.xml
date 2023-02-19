@@ -16,20 +16,28 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/str_paired_devices" />
+        android:text="@string/str_paired_devices"
+        android:textColor="#070707"
+        android:textSize="25sp" />
 
     <ListView
         android:id="@+id/list_paired_devices"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#070707"
         android:text="@string/str_available_devices" />
 
     <ListView
         android:id="@+id/list_available_devices"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
 </LinearLayout>

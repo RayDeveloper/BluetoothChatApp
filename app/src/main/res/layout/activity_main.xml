@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textColor="#FF0000"
     tools:context="com.androidtut.qaifi.bluetoothchatapp.MainActivity">
 
 
@@ -11,18 +12,23 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="60dp"
-        android:background="#efefef" />
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="50px" />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+         >
 
         <EditText
             android:id="@+id/ed_enter_message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="100dp" />
+            android:layout_marginEnd="100dp"
+             />
 
         <Button
             android:id="@+id/btn_send_msg"
